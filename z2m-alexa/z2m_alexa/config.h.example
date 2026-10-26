@@ -1,0 +1,16 @@
+// OPCIONAL. Wi-Fi e MQTT são configurados pela página do ESP (http://<ip>/config) e gravados na flash.
+// Use este arquivo só se preferir compilar já com os valores iniciais: copie para config.h e preencha.
+#pragma once
+
+#define WIFI_SSID      "minha-rede"
+#define WIFI_SENHA     "minha-senha"
+#define NOME_HOST      "z2m-alexa"
+
+#define MQTT_HOST      "192.168.2.10"
+#define MQTT_PORTA     1883
+#define MQTT_USUARIO   "z2m-alexa"
+#define MQTT_SENHA     "senha-mqtt"
+#define Z2M_BASE       "zigbee2mqtt"
+
+#define WEB_USUARIO    "admin"
+#define WEB_SENHA      "troque-esta-senha"
